@@ -1,4 +1,4 @@
-# AI_Text_Detector/src/train_model.py
+
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import joblib
@@ -11,7 +11,7 @@ def train_model(X_train, y_train):
 def evaluate_model(model, X_test, y_test):
     predictions = model.predict(X_test)
     accuracy = accuracy_score(y_test, predictions)
-    print(f"Accuracy: {accuracy}")
+    print(f"Accuracy: {100*accuracy}%")
 
 def save_model(model, vectorizer, model_path, vectorizer_path):
     # Save the trained model

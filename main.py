@@ -1,4 +1,4 @@
-# main.py
+
 from src.data_preprocessing import load_data, preprocess_data, split_data, preprocess_text_data
 from src.train_model import train_model, evaluate_model, save_model
 

@@ -1,4 +1,4 @@
-# predict.py
+
 import joblib
 
 def load_model_and_vectorizer(model_path, vectorizer_path):
@@ -20,7 +20,7 @@ def predict_text(model, vectorizer, text):
     return prediction
 
 if __name__ == "__main__":
-    # Example usage
+    
     input_text = input("Enter an essay to be checked!")
 
 
