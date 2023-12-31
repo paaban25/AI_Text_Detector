@@ -21,7 +21,7 @@ def predict_text(model, vectorizer, text):
 
 if __name__ == "__main__":
     
-    input_text = input("Enter an essay to be checked!")
+    input_text = input("Enter the text to be checked:- \n")
 
 
     model_path = "models/trained_model.pkl"
