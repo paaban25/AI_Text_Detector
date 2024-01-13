@@ -68,3 +68,9 @@ Explore and analyze the dataset using Jupyter Notebooks:
 ```bash
 cd notebooks
 jupyter notebook exploratory_data_analysis.ipynb
+
+### Predicting about the text
+
+Run the predict.py inside the src directory to predict if a given paragraph is human written or AI generated.
+
+
