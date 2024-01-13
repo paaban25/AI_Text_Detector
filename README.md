@@ -74,4 +74,3 @@ jupyter notebook exploratory_data_analysis.ipynb
 Run the predict.py inside the src directory to predict if a given paragraph is human written or AI generated.
 
 
-
