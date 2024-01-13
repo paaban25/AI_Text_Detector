@@ -24,10 +24,16 @@ The AI Text Detector project aims to classify text as either human-written or ge
 
 The project is organized into the following directories:
 
-- `dataset`: Contains the dataset Excel file.
-- `src`: Source code files for data preprocessing, model training, and prediction.
-- `models`: Directory to store trained models.
-- `notebooks`: Jupyter Notebooks for exploratory data analysis and other analyses.
+- **`dataset`**: Contains the dataset Excel file (`dataset.xlsx`). The dataset includes two columns: "text" (paragraphs) and "generated" (labels indicating whether the text is human-written (0) or AI-generated (1)).
+
+- **`src`**: Source code files for different stages of the project.
+  - **`data_preprocessing.py`**: Code for loading, preprocessing, and splitting the dataset.
+  - **`train_model.py`**: Code for training the AI Text Detector model.
+  - **`predict.py`**: Code for making predictions using the trained model.
+
+- **`models`**: Directory to store trained models. After running the model training code, the trained model and vectorizer are saved here.
+
+- **`notebooks`**: Jupyter Notebooks for exploratory data analysis and additional analyses. The main notebook is `exploratory_data_analysis.ipynb`.
 
 ## Getting Started
 
@@ -41,7 +47,7 @@ The project is organized into the following directories:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/paaban25/AI_Text_Detector.git
+    git clone https://github.com/yourusername/AI_Text_Detector.git
     cd AI_Text_Detector
     ```
 
