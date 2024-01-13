@@ -68,9 +68,16 @@ Explore and analyze the dataset using Jupyter Notebooks:
 ```bash
 cd notebooks
 jupyter notebook exploratory_data_analysis.ipynb
+```
 
 ### Predicting about the text
 
 Run the predict.py inside the src directory to predict if a given paragraph is human written or AI generated.
+Here is an example of AI_Detected text predicted by the model.
+![AI_Generated Image](images/AI_Detected.png)
+
+And here is another example of a text written by human. 
+![Human_Generated Image](images/Human_Generated.png)
+
 
 
