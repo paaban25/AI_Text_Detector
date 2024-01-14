@@ -14,8 +14,6 @@ def evaluate_model(model, X_test, y_test):
     print(f"Accuracy: {100*accuracy}%")
 
 def save_model(model, vectorizer, model_path, vectorizer_path):
-    # Save the trained model
     joblib.dump(model, model_path)
 
-    # Save the TF-IDF vectorizer
     joblib.dump(vectorizer, vectorizer_path)
